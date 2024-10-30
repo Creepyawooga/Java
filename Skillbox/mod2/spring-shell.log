@@ -1,0 +1,41 @@
+1730208691512:create
+1730208698315:list
+1730208700928:delete
+1730209073740:Добавить студента
+1730209079706:Создание студента
+1730209083996:help
+1730209093044:add-student
+1730209108551:view-student
+1730209119243:help
+1730209130993:view-students
+1730209139736:delete-student
+1730209143975:add-student
+1730209231212:рудз
+1730209233381:help
+1730209237756:add-student
+1730209266453:package org.example;
+1730209266479:import org.example.Student;
+1730209266495:import org.example.StudentRepository;
+1730209266507:import org.springframework.beans.factory.annotation.Autowired;
+1730209266518:import org.springframework.shell.standard.ShellComponent;
+1730209266523:import org.springframework.shell.standard.ShellMethod;
+1730209266526:import org.springframework.shell.standard.ShellOption;
+1730209266529:import java.util.List;
+1730209266532:@ShellComponent
+1730209266535:public class StudentCommands {
+1730209266598:}
+1730209267908:package org.example;
+1730209267915:import org.example.Student;
+1730209267919:import org.example.StudentRepository;
+1730209267924:import org.springframework.beans.factory.annotation.Autowired;
+1730209267933:import org.springframework.shell.standard.ShellComponent;
+1730209267936:import org.springframework.shell.standard.ShellMethod;
+1730209267939:import org.springframework.shell.standard.ShellOption;
+1730209267941:import java.util.List;
+1730209267943:@ShellComponent
+1730209267945:public class StudentCommands {
+1730209268011:}
+1730209278415:add-student --firstName John --lastName Doe --age 20
+1730209290992:help
+1730209298286:view-students
+1730209310849:clear-students
